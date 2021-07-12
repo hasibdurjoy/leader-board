@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common utilities */
+header{
+    color: #FFFFFF;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -21,6 +24,42 @@ main{
 hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
+}
+
+/* header styles */
+.header-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #562EFF;
+}
+.nav-left-side{
+    display: flex;
+    margin-left: 40px;
+}
+.nav-left-side h1{
+    font-size: 24px;
+}
+.nav-left-side img{
+    width: 40px;
+    height: 50px;
+    margin-top: 26px;
+    margin-bottom: 17px;
+}
+.nav-right-side{
+    display: flex;
+    margin-right: 40px;
+}
+.nav-right-side img{
+    width: 51px;
+    height: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-right: 20px;
 }
 
 /* top players style  */
